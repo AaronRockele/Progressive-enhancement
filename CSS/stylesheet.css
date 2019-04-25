@@ -13,10 +13,21 @@ body {
 
 }
 
+
 table,
 th,
 td {
     border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+tr:nth-child(odd) {
+  background-color: #aaacaf;
 }
 
 p {
@@ -55,4 +66,29 @@ blockquote {
     font-size: 160%;
     background-color: lightgray;
 
+}
+
+.villagers {
+    color: blue;
+}
+
+.farmer {
+    color: purple;
+}
+
+h1:first-child {
+    background-color: yellow;
+}
+
+.good,
+.bad {
+    text-transform: capitalize;
+}
+
+.good {
+    color: green;
+}
+
+.bad {
+    color: red;
 }
