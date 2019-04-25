@@ -2,8 +2,56 @@ body {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    background-color: #00d2ff;
+    background-image: linear-gradient(#00d2ff, #928DAB);
+    /*background-image: linear-gradient(transparent 50%, rgba(255, 255, 255, .5) 50%);
+   
+    /*background-image: url(https://res.cloudinary.com/rebelwalls/image/upload/b_black,c_fill,fl_progressive,h_533,q_auto,w_800/v1479371025/article/R10963_image1);
+    background-position: bottom right;
+    background-size: cover;*/
+
 }
 
-table,th,td {
-            border: 1px solid black;
-        }
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+p {
+    font-family: sans-serif;
+    letter-spacing: normal;
+}
+
+a {
+    color: blue;
+    font-family: arial
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+a:visited {
+    color: red;
+}
+
+q {
+    text-align: center;
+    position: relative;
+    border-left: 3px solid;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+
+}
+
+blockquote {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 160%;
+    background-color: lightgray;
+
+}
