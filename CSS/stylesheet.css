@@ -24,10 +24,11 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+    background-color: #dddddd;
 }
+
 tr:nth-child(odd) {
-  background-color: #aaacaf;
+    background-color: #aaacaf;
 }
 
 p {
@@ -91,4 +92,26 @@ h1:first-child {
 
 .bad {
     color: red;
+}
+
+p:first-of-type {
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+img {
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-left: 50px;
+}
+
+#pretext {
+    float: left;
+    margin-left: 5%
+}
+
+#story {
+    margin-top: 30%;
+    margin-left: 5%;
 }
