@@ -4,6 +4,7 @@ body {
     margin-right: auto;
     background-color: #00d2ff;
     background-image: linear-gradient(#00d2ff, #928DAB);
+
     /*background-image: linear-gradient(transparent 50%, rgba(255, 255, 255, .5) 50%);
    
     /*background-image: url(https://res.cloudinary.com/rebelwalls/image/upload/b_black,c_fill,fl_progressive,h_533,q_auto,w_800/v1479371025/article/R10963_image1);
@@ -25,7 +26,7 @@ p {
 
 a {
     color: blue;
-    font-family: arial
+    font-family: arial;
 }
 
 a:hover {
